@@ -1,3 +1,28 @@
 /* Your code goes here */
 
-
+.container{
+    display:flex;
+    flex-direction: column-reverse;
+    border: 1px solid #fff;
+}
+.container div{
+    float:right;
+}
+.second-container{
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 1px #fff;
+}
+.second-container div{
+    float:left;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+}
